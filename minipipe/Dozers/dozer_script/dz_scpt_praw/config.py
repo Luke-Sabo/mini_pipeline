@@ -1,5 +1,0 @@
-client_id = "_KdSJxfg7HsmQg"
-client_secret = "j9KSZHCuDKT3S_i16NX9_LTe2u5otA"
-user_name = "anom_tracker"
-password = "c00ki3s"
-user_agent = "anom_tracker_v1"
