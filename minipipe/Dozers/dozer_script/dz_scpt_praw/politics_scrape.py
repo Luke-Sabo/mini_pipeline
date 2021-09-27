@@ -53,7 +53,7 @@ scrape_date = str(date.today())
 user_frame.to_csv(CSV_path + 'praw_politics_scrape_lm1000' + scrape_date + '.csv', index=False)
 
 ###SQLite export
-###SQLite seems to not like taking pandas objects as input, need to recast
+
 
 user_frame['pid'] = user_frame['pid'].astype(str)
 user_frame['sub'] = user_frame['sub'].astype(str)
