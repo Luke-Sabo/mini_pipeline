@@ -55,5 +55,8 @@ try:
 
 except mariadb.Error as e:
     print(f"An error occured while manipulating table: {e}")
+    
+lake_connection.close()
+lake_cursor.close()
 
 
